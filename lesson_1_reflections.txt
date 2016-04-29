@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+ 
+Seeing the difference between two files helped me to figure out what was wrong and where I went wrong. Since the differences are clearly visible and easily understood, it is very easy to make changes accordingly.
+ 
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+ 
+Having access to the entire history of a file helps us by providing us with the flow of the code in the file. We can see and reflect as to when and why a change was made. It also gives us the opportunity to go back to any version of the file we wish to to go back to.
+ 
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+ 
+Manually choosing when to create a commit. like in Git is a more preferred method as we get to choose the righ size, or the logical point wherein we need to create a commit.
+Having versions automatically saved though helps when we have the tendency to forget committing our codes at required intervals, it creates a large number of commits, some unnecessary. Also, If we are still writing a piece of code when the automatic commit occurs, the code tends to be incomplete and may not work at all.
+ 
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+ 
+Git is programming oriented, where many files consists of one logical group. Whereas, Google Docs is targeted for documents created for normal reading, where every file is a separate meaningful piece.
+ 
+How can you use the commands git log and git diff to view the history of files?
+ 
+Use the git log to find the commit ids of the commits you want to compare. This can be identified by either the date created or the summary provided for each commit. To know the difference, type git diff followed by the commit ids of the 2 files you want to compare. Using git config --global color.ui auto colors the newly inserted rows in green and deleted rows in red.
+ 
+How might using version control make you more confident to make changes that
+could break something?
+ 
+You can always go back to the point when codes were working correctly. If you find something is not working, you can use git log, and try the previous versions until you find the one which works, and make diff of the last one that worked correctly and the commit following it.
+ 
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Code amazing programs!
